@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.min.js"></script>
+
+
+    <title>Tugas Besar Ridho Alfatih</title>
+
+</head>
+<body id="page-top">
+    <div id="wrapper">
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Kalkulator Kalkulus Linear</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="card shadow mb-4">
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Data Diri Saya</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <label for="nama" class="form-label">Nama : Ridho Alfatih</label>
+                                    </div>
+                                    <div>
+                                        <label for="jurusan" class="form-label">Jurusan : Teknik Informatika</label>
+                                    </div>
+                                    <div>
+                                        <label for="nim" class="form-label">NIM : 411231069</label>
+                                    </div>
+                                    <div>
+                                        <label for="email" class="form-label">Email : 411231069@mahasiswa.undira.ac.id</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h4 class="m-0 font-weight-bold text-primary">Kalkulator</h4>
+                                </div>
+                                <div class="card-body">
+                                    <input type="text" style="width: 40px;" id="a">
+                                    <label for="a"> x² + </label>
+                                    <input type="text" style="width: 40px;" id="b">
+                                    <label for="b"> x + </label>
+                                    <input type="text" style="width: 40px;" id="c">
+                                    <label for="c"> = 0</label>
+                                    <div>
+                                        <button class="btn btn-primary" onclick="hitungAkar()">Hitung akar</button><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h4 class="m-0 font-weight-bold text-primary">Hasil Akar Persamaan Kuadrat</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <label id="akar1"></label>
+                                    </div>
+                                    <div>
+                                        <label id="akar2"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Tugas Besar Ridho Alfatih 2023</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
